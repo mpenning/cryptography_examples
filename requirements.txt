@@ -1,0 +1,1 @@
+cryptography==2.8  # Pinning at v2.8 because sslyze==3.0.1 requries v2.8
