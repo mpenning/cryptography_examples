@@ -11,6 +11,8 @@ cleartext = "Guacamole for life"
 
 # Create a salt and encrypted message... Use a password to encrypt
 # The script will prompt for a password if none is provided.
+#
+# result is a dictionary with two keys: 'b64_salt' and 'encrypted_message'
 result = fernet_encrypt(cleartext, password="abcdefg")
 
 # Store the salt and encrypted message somewhere; both are safe to expose.
